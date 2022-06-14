@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DrivenEats</title>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="fundoBranco">
+      <div class="topBar">
+        <h1>DrivenEats</h1>
+        <h4>Sua comida em 6 minutos</h4>
+      </div>
+      <!--Fecha caixa topBar-->
+
+      <div class="gallery">
+        <div class="gallery1">
+          <div class="title">
+            <h1>Primeiro, seu prato</h1>
+          </div>
+          <!--Fecha caixa title-->
+          <div class="menu linha1">
+            <div class="prato1 comida" onclick="selecionarComida(this)">
+              <div class="prato">
+                <img src="./Imagens/comida.jpg" />
+                <h6>Frango Yin Yang</h6>
+                <p>Um pouco de batata, um ouco de salada</p>
+                <h5>R$ <span>24,90</span></h5>
+                <img
+                  class="icone invisivel1"
+                  src="./Imagens/icone.png"
+                />
+              </div>
+            </div>
+            <!--Fecha caixa prato1-->
+
+            <div class="prato1 comida1" onclick="selecionarComida(this)">
+              <div class="prato">
+                <img src="./Imagens/comida.jpg" />
+                <h6>Batata Frita</h6>
+                <p>Um pouco de batata, um ouco de salada</p>
+                <h5>R$ <span>12,90</span></h5>
+                <img
+                  class="icone invisivel1"
+                  src="./Imagens/icone.png"
+                />
+              </div>
+            </div>
+            <!--Fecha caixa prato1-->
+
+            <div class="prato1 comida2" onclick="selecionarComida(this)">
+              <div class="prato">
+                <img src="./Imagens/comida.jpg" />
+                <h6>Salada Mista</h6>
+                <p>Um pouco de batata, um ouco de salada</p>
+                <h5>R$ <span>16,90</span></h5>
+                <img
+                  class="icone invisivel1"
+                  src="./Imagens/icone.png"
+                />
+              </div>
+            </div>
+            <!--Fecha caixa prato1-->
+          </div>
+          <!--Fecha caixa menu-->
+        </div>
+        <!--Fecha caixa gallery1-->
+
+        <!--Abre galeria 2-->
+
+        <div class="gallery1">
+          <div class="title">
+            <h1>Agora, sua bebida</h1>
+          </div>
+          <!--Fecha caixa title-->
+          <div class="menu linha2 seleciona">
+            <div class="prato1 refri" onclick="selecionarRefri(this)">
+              <div class="bebida">
+                <img src="./Imagens/coca.jpg" />
+                <h6>Coquinha 300ml</h6>
+                <p>Lata 350ml</p>
+                <h5>R$ <span>4,90</span></h5>
+                <img class="icone invisivel1" src="./Imagens/icone.png"/>
+              </div>
+            </div>
+            <!--Fecha caixa prato1-->
+            <div class="prato1 refri" onclick="selecionarRefri(this)">
+              <div class="bebida bebida1">
+                <img src="./Imagens/coca.jpg" />
+                <h6>Coquinha 1,5L</h6>
+                <p>Lata 350ml</p>
+                <h5>R$ <span>7,90</span></h5>
+                <img class="icone invisivel1" src="./Imagens/icone.png"/>
+              </div>
+            </div>
+            <!--Fecha caixa prato1-->
+            <div class="prato1 refri" onclick="selecionarRefri(this)">
+              <div class="bebida bebida2">
+                <img src="./Imagens/coca.jpg" />
+                <h6>Água gelada</h6>
+                <p>Lata 350ml</p>
+                <h5>R$ <span>2,90</span></h5>
+                <img class="icone invisivel1" src="./Imagens/icone.png"/>
+              </div>
+            </div>
+            <!--Fecha caixa prato1-->
+          </div>
+          <!--Fecha caixa menu-->
+        </div>
+        <!--Fecha caixa gallery2-->
+
+        <!--Abre galeria3-->
+
+        <div class="gallery1">
+          <div class="title">
+            <h1>Por fim, sua sobremesa</h1>
+          </div>
+          <!--Fecha caixa title-->
+          <div class="menu linha3 seleciona1">
+            <div class="prato1 sobremesa" onclick="selecionarSobremesa(this)">
+              <div class="pudim">
+                <img src="./Imagens/pudim.jpg" />
+                <h6>Pudim Chocolate</h6>
+                <p>Apenas pudim</p>
+                <h5>R$ <span>7,90</span></h5>
+                <img
+                  class="icone invisivel1"
+                  src="./Imagens/icone.png" />
+              </div>
+            </div>
+            <!--Fecha caixa prato1-->
+            <div class="prato1 sobremesa" onclick="selecionarSobremesa(this)">
+              <div class="pudim pudim1">
+                <img src="./Imagens/pudim.jpg" />
+                <h6>Pudim</h6>
+                <p>Apenas pudim</p>
+                <h5>R$ <span>5,90</span></h5>
+                <img
+                  class="icone invisivel1"
+                  src="./Imagens/icone.png"/>
+              </div>
+            </div>
+            <!--Fecha caixa prato1-->
+            <div class="prato1 sobremesa" onclick="selecionarSobremesa(this)">
+              <div class="pudim pudim2">
+                <img src="./Imagens/pudim.jpg" />
+                <h6>Pudim Prestígio</h6>
+                <p>Apenas pudim</p>
+                <h5>R$ <span>8,90</span></h5>
+                <img
+                  class="icone invisivel1"
+                  src="./Imagens/icone.png"/>
+              </div>
+            </div>
+            <!--Fecha caixa prato1-->
+          </div>
+          <!--Fecha caixa menu-->
+        </div>
+        <!--Fecha caixa gallery3-->
+
+        <div class="barra">
+          <div class="botao .pedido1" onclick="fecharPedido(this)">
+            Selecione os 3 ítens para fechar o pedido
+          </div>
+        </div>
+        <!--Fecha caixa barra-->
+
+      </div>
+      <!--Fecha caixa gallery-->
+
+      </div>
+      <!--Fecha caixa Fundo Branco-->
+
+      <div class="pedido invisivel">
+        <div class="titulo">
+          Confirme seu pedido
+        </div>
+        <!--Fecha caixa de titulo-->
+
+        <div class="valor">
+          <div class="valor1">
+            <p class="nomeDaComida1">Frango Yin Yang</p>
+            <p class="nomeDaBebida1">Coquinha gelada</p>
+            <p class="nomeDaSobremesa1">Pudim</p>
+            <h6>Total</h6>
+          </div>
+          <!--Fecha caixa valor1-->
+
+          <div class="valor2">
+            <p class="precoDaComida1">14,90</p>
+            <p class="precoDaBebida1">4,90</p>
+            <p class="precoDaSobremesa1">7,90</p>
+            <h6>R$</h6>
+          </div>
+          <!--Fecha caixa valor1-->
+        </div>
+        <!--Fecha caixa de valor-->
+          <div class="pedir" onclick="ConfirmarPedido(this)">
+          Tudo certo, pode pedir!
+        </div>
+        <!--Fecha caixa pedir-->
+        
+        <div class="cancelar" onclick="cancelarPedido(this)">
+          Cancelar
+        </div>
+      </div>
+      <!--Fecha caixa pedido-->
+
+    <script src="./script.js"></script>
+  </body>
+</html>
